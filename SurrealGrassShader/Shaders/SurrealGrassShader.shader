@@ -1,5 +1,3 @@
-﻿
-
 Shader "Custom/Surreal Grass Shader" {
 	Properties{
 		[Header(Grass Blade 1)]
@@ -74,8 +72,6 @@ Shader "Custom/Surreal Grass Shader" {
 		{
 			CULL OFF
 			Blend Off
-
-			Tags{ "LightMode" = "Deferred" }
 
 			CGPROGRAM
 			#include "UnityCG.cginc"
